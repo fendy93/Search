@@ -14,10 +14,10 @@ $ python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 
 * Uniform Cost Search
 ```
-python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
+$ python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
 ```
 
 * A* Search
 ```
-python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+$ python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
 ```
